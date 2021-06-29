@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Robotic Arm & directions</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#Arm"><b> الذراع </b> </a></li>
+        <li class="tab"><a href="#dirctions"> الاتجاهات</a></li>
+      </ul>
+      
+      <div class="tab-content">
+
+        <div id="Arm">    
+          <h1> <b>لوحة تحكم ذراع الروبوت </b></h1>
+          
+          <form action="connectArm.php" method="post">
+          
+
+            <div class="field-Arm">  
+              <p id="engines"> <b> :محرك ١ </b> </p> 
+              <input type="range" min="0" max="180" value="0" class="range" id="slider1" name="slider1">
+              <p id="values"> Value:<span id="value1"> </span> </p>
+            </div>
+
+          <div class="field-Arm">
+            <p id="engines"> <b> :محرك٢ </b> </p> 
+            <input type="range" min="0" max="180" value="0" class="range" id="slider2" name="slider2">
+            <p id="values"> Value:<span id="value2"> </span> </p>
+          </div>   
+
+          <div class="field-Arm">
+            <p id="engines"> <b> :محرك ٣ </b> </p> 
+            <input type="range" min="0" max="180" value="0" class="range" id="slider3" name="slider3">
+            <p id="values"> Value:<span id="value3"> </span> </p>
+          </div>
+          
+          <div class="field-Arm">
+            <p id="engines"> <b> :محرك ٤ </b> </p> 
+            <input type="range" min="0" max="180" value="0" class="range" id="slider4" name="slider4">
+            <p id="values"> Value:<span id="value4"> </span> </p>
+          </div>
+
+          <div class="field-Arm">
+            <p id="engines"> <b> :محرك ٥ </b> </p> 
+            <input type="range" min="0" max="180" value="0" class="range" id="slider5" name="slider5">
+            <p id="values"> Value:<span id="value5"> </span> </p>
+          </div>
+
+          <div class="field-Arm">
+            <p id="engines"> <b> :محرك ٦ </b> </p> 
+            <input type="range" min="0" max="180" value="0" class="range" id="slider6" name="slider6">
+            <p id="values"> Value:<span id="value6"> </span> </p>
+          </div>
+
+          <div class="field-Arm">
+            <button type="submit" id="button1" name="save" class="button button-block">حفظ </button>
+            <button type="submit" id="button2" name="run" class="button button-block">تشغيل</button>
+        </div>
+        
+          </form>
+        </div>
+        
+        <div id="dirctions">   
+            <h1> <b>لوحة تحكم اتجاهات الروبوت </b></h1>
+            
+            <center>
+              <form action="connectDirections.php" method="post"></form>
+            <div class="field-Direction"> 
+                <button type="submit" id="buttonD" name="btn" value="F" class="button buttonD"> <b>أمام</b></button>
+            </div>
+
+            <div class="field-Direction">
+                <button type="submit" id="buttonD" name="btn" value="L" class="button buttonD"> <b>يسار</b></button>
+                <button type="submit" id="buttonS" name="btn" value="S" class="button buttonS"><b>إيقاف</b> </button>
+                <button type="submit" id="buttonD" name="btn" value="R" class="button buttonD"> <b>يمين </b> </button>
+            </div>
+
+            <div class="field-Direction">
+                <button type="submit" id="buttonD" name="btn" value="B" class="button buttonD"> <b>خلف</b></button>
+            </div>
+        </center>
+        
+            
+         </form>
+       </div>
+      
+</div> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>

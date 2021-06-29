@@ -1,0 +1,195 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    overflow-y: scroll;
+  }
+  
+  body {
+    background: #c1bdba;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: #1ab188;
+    transition: .5s ease;
+  }
+  a:hover {
+    color: #179b77;
+  }
+
+  #values{
+  color: white;
+  }
+  
+  .form {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 80px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  }
+  
+  .tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  .tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+  .tab-group li a:hover {
+    background: #179b77;
+    color: #ffffff;
+  }
+  
+  .tab-group .active a {
+    background: #1ab188;
+    color: #ffffff;
+  }
+  .tab-content > div:last-child {
+    display:none;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #82c4b3;
+    font-weight: 300;
+    margin: 0 0 40px;
+  }
+  
+  .field-Arm {
+    position: relative;
+  }
+  .field-Direction {
+    position: relative;
+    margin: 20px;
+  }
+  
+  
+  .button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+  
+  }
+  .button:hover, .button:focus {
+    background: #179b77;
+  }
+  
+  .button-block {
+    display: block;
+    width: 40%;
+    
+  }
+  .range  {
+    -webkit-appearance: none;
+    background: #edecec;
+    width: 95%;
+    height: 10px ;
+    border-radius: 120px;
+    margin: 6px;
+    opacity: 0.8;
+  }
+  .range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #12d09d;
+    cursor: pointer;
+  }
+  .range:hover{
+    opacity: 1;
+  }
+ 
+  #engines{
+    color: rgb(255, 255, 255);  
+    display: inline ;
+    position: relative; 
+    left: 90%; 
+  }
+  
+  #button1{
+    float: left;
+   
+  }
+  
+  #button2{
+    float: right;
+     
+  }
+
+  #buttonD{
+    background: #1ab188;
+    border: 1px solid white ;
+    padding: 20px;
+    margin: 4px 2px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    width: 101px; 
+    height: 50px;
+    color: #ffffff;
+    -webkit-appearance: none;
+
+  }
+
+  #buttonS{
+    background: #98210c;
+    border: 1px solid white ;
+    padding: 20px;
+    margin: 4px 2px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    width: 101px; 
+    height: 50px;
+    color: #ffffff;
+    -webkit-appearance: none;
+  }
+
+  #buttonD:active{
+    background-color: #107459;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+
+  }
+
+  #buttonS:active{
+    background-color: #611608;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+  }
