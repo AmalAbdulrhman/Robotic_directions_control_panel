@@ -18,7 +18,8 @@
 
 
 ## interface is displayed as a mobile web view: 
-<img width="312" alt="Screen Shot 2021-06-29 at 18 18 16" src="https://user-images.githubusercontent.com/85778891/123825115-4cb71f00-d907-11eb-91d1-6c1347515943.png"><img width="391" alt="Screen Shot 2021-06-29 at 18 19 02" src="https://user-images.githubusercontent.com/85778891/123825120-4de84c00-d907-11eb-9f6b-f7838b0f97a2.png">
+<img width="280" alt="Screen Shot 2021-06-29 at 18 18 16" src="https://user-images.githubusercontent.com/85778891/123825303-78d2a000-d907-11eb-99b2-f2aa9c4418e1.png"><img width="355" alt="Screen Shot 2021-06-29 at 18 19 02" src="https://user-images.githubusercontent.com/85778891/123825310-7a9c6380-d907-11eb-9384-62a8001c39c5.png">
+
 
 
 
